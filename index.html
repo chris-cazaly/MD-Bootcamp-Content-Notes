@@ -87,11 +87,22 @@
     <p>The values do not have to be of the same data type.</p>
     <p>The values are <em>ordered</em> using <em>zero-based indexing</em>. This means we start counting from 0, instead of 1.</em></p>
     <p>As such, [ "Joe" ] is at position index 0.</p>
-    <p>To access a specific index in an array, we type: <em>arrayName[index].</em></p>
+    <p>To access a specific index in an array, we type: <em class="example">arrayName[index]</em>.</p>
     <p class="example">e.g. exampleArray[0] == "Joe"</p>
     <p><em>Note: the double equals [ == ] is called the equivalence operator.</em></p>
     <p><em>Note: it tells us that exampleArray[0] is holding the value of "Joe".</em></p>
     <p>If we write: <em class="example">exampleArray[0] = "James";</em> we will <em>assign</em> a new value of "James" to position index 0 of the array.</p>
+
+    <h3>Objects</h3>
+    <p>Objects are similar to arrays, they are able to store multiple values. The difference is in <em>how</em> they store them.</p>
+    <p>An object uses a <em>key-value pairing system</em>. This means that each value is assigned a unique <em>key</em> that identifies it.</p>
+    <p>To initialise an object, we type: <em class="example">let exampleObject = { firstName: "Joe" , surname: "Bloggs" , age: 21 };</em></p>
+    <p>Above, the exampleObject is storing 3 <em>values</em>: "Joe", "Bloggs", 21.</p>
+    <p>But they have each been labled with their own identifier <em>key</em>: firstName, lastName, age.</p>
+    <p>To access the value of an object, we use <em>dot-notation</em>.</p>
+    <p class="example">e.g. exampleObject.firstName == "Joe"</p>
+    <p>And we can reassign the values in an object too:</p>
+    <p class="example">e.g. exampleObject.firstName = "James";</p>
 
 </body>
 </html>
