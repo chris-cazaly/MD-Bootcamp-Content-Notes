@@ -1,0 +1,25 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+    color: darkslategrey;
+}
+
+h1 {
+    color: #ee9965;
+}
+
+h2 {
+    color: #7c731f;
+} 
+
+h3 {
+    color: #5a79a1;
+}
+
+.example {
+    color: rgb(172, 140, 0);
+    font-style: italic;
+}
