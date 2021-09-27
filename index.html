@@ -10,99 +10,103 @@
     <title>JavaScript Bootcamp Summary</title>
 </head>
 <body>
-    <h1>JavaScript Bootcamp Summary</h1>
+    <div class="container">
+        
+        <h1>JavaScript Bootcamp Summary</h1>
 
-    <h2>Git | GitHub | Command Line</h2>
+        <h2>Git | GitHub | Command Line</h2>
 
-    <h3>Basic CMD Commands (Windows)</h3>
+        <h3>Basic CMD Commands (Windows)</h3>
 
-    <p><strong>dir</strong> - lists contents of current directory</p>
-    <p><strong>cd [dir]</strong> - change directory: move into named directory</p>
-    <p><strong>cd ..</strong> - move into the directory above</p>
-    <p><strong>code .</strong> - open current directory/file in VSCode</p>
-    <p><strong>rm</strong> - remove directory</p>
-    <p><strong>cls</strong> - clear screen</p>
+        <p><strong>dir</strong> - lists contents of current directory</p>
+        <p><strong>cd [dir]</strong> - change directory: move into named directory</p>
+        <p><strong>cd ..</strong> - move into the directory above</p>
+        <p><strong>code .</strong> - open current directory/file in VSCode</p>
+        <p><strong>rm</strong> - remove directory</p>
+        <p><strong>cls</strong> - clear screen</p>
 
-    <h3>Basic Git Commands</h3>
+        <h3>Basic Git Commands</h3>
 
-    <p><strong>git init</strong> - creates <em>empty</em> repo in current directory</p>
-    <p><strong>git clone [repo]</strong> - clone repo located at [repo] onto local machine</p>
-    <p><strong>git config --global user.name [name]</strong> - define the author name to be used for all commits</p>
-    <p><strong>git config --global user.email [email]</strong> - definre the author email address</p>
-    <p><strong>git add [dir/file]</strong> - stage all changes in [dir/file] for next commit</p>
-    <p><strong>git status</strong> - list which files are stage, unstaged, and untracked</p>
-    <p><strong>git commit -m "[message]" </strong> - commit the staged snapshot</p>
-    <p><strong>git log</strong> - display the entire commit history</p>
+        <p><strong>git init</strong> - creates <em>empty</em> repo in current directory</p>
+        <p><strong>git clone [repo]</strong> - clone repo located at [repo] onto local machine</p>
+        <p><strong>git config --global user.name [name]</strong> - define the author name to be used for all commits</p>
+        <p><strong>git config --global user.email [email]</strong> - definre the author email address</p>
+        <p><strong>git add [dir/file]</strong> - stage all changes in [dir/file] for next commit</p>
+        <p><strong>git status</strong> - list which files are stage, unstaged, and untracked</p>
+        <p><strong>git commit -m "[message]" </strong> - commit the staged snapshot</p>
+        <p><strong>git log</strong> - display the entire commit history</p>
 
-    <h2>JS - Variables and Data Types</h2>
+        <h2>JS - Variables and Data Types</h2>
 
-    <h3>What is a variable?</h3>
-    
-    <p>A variable is used to store a value that can be accessed and/or changed later.</p>
-    <p>A variable will have 2 main features: a name and a value.</p>
-    <p>To <em>initialise</em> a new variable, we type: <em>let [variable name] = [value];</em></p>
-    <p>The equals symbol [ = ] is known as the assignment operator, as it asigns a value to the variable.</p>
-    <p class="example">e.g. let name = "Joe";</p>
-    <p class="example">e.g. let age = 21;</p>
+        <h3>What is a variable?</h3>
+        
+        <p>A variable is used to store a value that can be accessed and/or changed later.</p>
+        <p>A variable will have 2 main features: a name and a value.</p>
+        <p>To <em>initialise</em> a new variable, we type: <em>let [variable name] = [value];</em></p>
+        <p>The equals symbol [ = ] is known as the assignment operator, as it asigns a value to the variable.</p>
+        <p class="example">e.g. let name = "Joe";</p>
+        <p class="example">e.g. let age = 21;</p>
 
-    <h3>What is a Data Type?</h3>
-    <p>A data type is a classification that specifies which type of value a variable has and what it can be used for.</p>
-    <p>There are lots of different data types and we will look at some of them below, starting with the <em>number</em> type</p>
+        <h3>What is a Data Type?</h3>
+        <p>A data type is a classification that specifies which type of value a variable has and what it can be used for.</p>
+        <p>There are lots of different data types and we will look at some of them below, starting with the <em>number</em> type</p>
 
-    <h3>Numbers</h3>
-    <p>In JavaScript, a number is any numerical value. It can be an integer or a decimal. It can be positive or negative.</p>
-    <p>We can perform numerical functions with number types, such addition, subtraction, multiplition, and division.</p>
-    <p>There are more complex numerical functions that can be applied too.</p>
-    <p class="example">e.g. let age = 26;</p>
-    <p class="example">e.g. let price = 4.99;</p>
-    <p class="example">e.g. let result = -10.5;</p>
-    <p>You can add numbers together explicitly:</p>
-    <p class="example">e.g. let result = 2 + 4; [result = 6]</p>
-    <p>Or you can add two variables together, provided they are both number types:</p>
-    <p class="example">e.g.</p>
-    <p class="example">let a = 2;</p>
-    <p class="example">let b = 4;</p>
-    <p class="example">let result = a + b; [result = 6]</p>
+        <h3>Numbers</h3>
+        <p>In JavaScript, a number is any numerical value. It can be an integer or a decimal. It can be positive or negative.</p>
+        <p>We can perform numerical functions with number types, such addition, subtraction, multiplition, and division.</p>
+        <p>There are more complex numerical functions that can be applied too.</p>
+        <p class="example">e.g. let age = 26;</p>
+        <p class="example">e.g. let price = 4.99;</p>
+        <p class="example">e.g. let result = -10.5;</p>
+        <p>You can add numbers together explicitly:</p>
+        <p class="example">e.g. let result = 2 + 4; [result = 6]</p>
+        <p>Or you can add two variables together, provided they are both number types:</p>
+        <p class="example">e.g.</p>
+        <p class="example">let a = 2;</p>
+        <p class="example">let b = 4;</p>
+        <p class="example">let result = a + b; [result = 6]</p>
 
-    <h3>Strings</h3>
-    <p>A string is a series of characters.</p>
-    <p>A string can be any text inside double [ " ] or single [ ' ] quotes.</p>
-    <p class="example">e.g. let name = "Joe";</p>
-    <p class="example">e.g. let inspirationalQuote = "Don't take life too seriously."</p>
-    <p>Strings can also be "added" together. This is known as <em>concatenation</em>:</p>
-    <p class="example">e.g. let name = "Joe" + "Bloggs"</p>
+        <h3>Strings</h3>
+        <p>A string is a series of characters.</p>
+        <p>A string can be any text inside double [ " ] or single [ ' ] quotes.</p>
+        <p class="example">e.g. let name = "Joe";</p>
+        <p class="example">e.g. let inspirationalQuote = "Don't take life too seriously."</p>
+        <p>Strings can also be "added" together. This is known as <em>concatenation</em>:</p>
+        <p class="example">e.g. let name = "Joe" + "Bloggs"</p>
 
-    <h3>Boolean</h3>
-    <p>A binary variable can only have of two possible values, true or false.</p>
-    <p class="example">e.g. let isRaining = true;</p>
-    <p class="example">e.g. let isEnabled = false;</p>
+        <h3>Boolean</h3>
+        <p>A binary variable can only have of two possible values, true or false.</p>
+        <p class="example">e.g. let isRaining = true;</p>
+        <p class="example">e.g. let isEnabled = false;</p>
 
-    <h3>Arrays</h3>
-    <p>An array is an ordered list of values.</p>
-    <p>To initialise an array, we type: <em class="example">let arrayName = [ 1 , 3 , 6 ];</em></p>
-    <p>The key thing to note is that the values are contained between a set of square brackets [ ].</p>
-    <p>And each value is separated by a comma [ , ].</p>
-    <p class="example">e.g. let exampleArray = [ "Joe" , "Jill", 10 , true ];</p>
-    <p>The above example contains 4 values, therefore it has a <em>length</em> of 4. Rather, <em class="example">exampleArray.length</em> is 4.</p>
-    <p>The values do not have to be of the same data type.</p>
-    <p>The values are <em>ordered</em> using <em>zero-based indexing</em>. This means we start counting from 0, instead of 1.</em></p>
-    <p>As such, [ "Joe" ] is at position index 0.</p>
-    <p>To access a specific index in an array, we type: <em class="example">arrayName[index]</em>.</p>
-    <p class="example">e.g. exampleArray[0] == "Joe"</p>
-    <p><em>Note: the double equals [ == ] is called the equivalence operator.</em></p>
-    <p><em>Note: it tells us that exampleArray[0] is holding the value of "Joe".</em></p>
-    <p>If we write: <em class="example">exampleArray[0] = "James";</em> we will <em>assign</em> a new value of "James" to position index 0 of the array.</p>
+        <h3>Arrays</h3>
+        <p>An array is an ordered list of values.</p>
+        <p>To initialise an array, we type: <em class="example">let arrayName = [ 1 , 3 , 6 ];</em></p>
+        <p>The key thing to note is that the values are contained between a set of square brackets [ ].</p>
+        <p>And each value is separated by a comma [ , ].</p>
+        <p class="example">e.g. let exampleArray = [ "Joe" , "Jill", 10 , true ];</p>
+        <p>The above example contains 4 values, therefore it has a <em>length</em> of 4. Rather, <em class="example">exampleArray.length</em> is 4.</p>
+        <p>The values do not have to be of the same data type.</p>
+        <p>The values are <em>ordered</em> using <em>zero-based indexing</em>. This means we start counting from 0, instead of 1.</em></p>
+        <p>As such, [ "Joe" ] is at position index 0.</p>
+        <p>To access a specific index in an array, we type: <em class="example">arrayName[index]</em>.</p>
+        <p class="example">e.g. exampleArray[0] == "Joe"</p>
+        <p><em>Note: the double equals [ == ] is called the equivalence operator.</em></p>
+        <p><em>Note: it tells us that exampleArray[0] is holding the value of "Joe".</em></p>
+        <p>If we write: <em class="example">exampleArray[0] = "James";</em> we will <em>assign</em> a new value of "James" to position index 0 of the array.</p>
 
-    <h3>Objects</h3>
-    <p>Objects are similar to arrays, they are able to store multiple values. The difference is in <em>how</em> they store them.</p>
-    <p>An object uses a <em>key-value pairing system</em>. This means that each value is assigned a unique <em>key</em> that identifies it.</p>
-    <p>To initialise an object, we type: <em class="example">let exampleObject = { firstName: "Joe" , surname: "Bloggs" , age: 21 };</em></p>
-    <p>Above, the exampleObject is storing 3 <em>values</em>: "Joe", "Bloggs", 21.</p>
-    <p>But they have each been labled with their own identifier <em>key</em>: firstName, lastName, age.</p>
-    <p>To access the value of an object, we use <em>dot-notation</em>.</p>
-    <p class="example">e.g. exampleObject.firstName == "Joe"</p>
-    <p>And we can reassign the values in an object too:</p>
-    <p class="example">e.g. exampleObject.firstName = "James";</p>
+        <h3>Objects</h3>
+        <p>Objects are similar to arrays, they are able to store multiple values. The difference is in <em>how</em> they store them.</p>
+        <p>An object uses a <em>key-value pairing system</em>. This means that each value is assigned a unique <em>key</em> that identifies it.</p>
+        <p>To initialise an object, we type: <em class="example">let exampleObject = { firstName: "Joe" , surname: "Bloggs" , age: 21 };</em></p>
+        <p>Above, the exampleObject is storing 3 <em>values</em>: "Joe", "Bloggs", 21.</p>
+        <p>But they have each been labled with their own identifier <em>key</em>: firstName, lastName, age.</p>
+        <p>To access the value of an object, we use <em>dot-notation</em>.</p>
+        <p class="example">e.g. exampleObject.firstName == "Joe"</p>
+        <p>And we can reassign the values in an object too:</p>
+        <p class="example">e.g. exampleObject.firstName = "James";</p>
+
+    </div>
 
 </body>
 </html>
